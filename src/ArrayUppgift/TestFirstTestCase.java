@@ -1,9 +1,9 @@
-package oving3;
+package ArrayUppgift;
 import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;
 
 
-public class TestExercise {
+public class TestFirstTestCase {
     @Test
     public void firstTestCase(){
         String text="some text";
