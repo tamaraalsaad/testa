@@ -1,5 +1,4 @@
-package övning2;
-import Inlämning.read;
+package Inlämning;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
