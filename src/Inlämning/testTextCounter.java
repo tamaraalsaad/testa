@@ -33,13 +33,12 @@ public class testTextCounter {
 
 }
 @Test
-    public void testStopNotCounted(){
+    public void testAddCommas(){
     textCounter counter= new textCounter();
     counter.addLine("Hello");
-    counter.addLine("stop");
-    counter.addLine("this line");
-    int actual=counter.getLineCount();
-    int expected=1;
+    counter.addLine(",");
+    int actual=counter.getCharCount();
+    int expected=6;
     Assertions.assertEquals(expected, actual);
 
 

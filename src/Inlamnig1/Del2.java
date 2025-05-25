@@ -1,4 +1,4 @@
-package Inlämning;
+package Inlamnig1;
 
 
 import java.util.Scanner;

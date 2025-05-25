@@ -8,10 +8,9 @@ public class textCounter {
         charCount=0;
     }
     public void addLine(String line){
-        if (! line.equals("Stop")){
             lineCount++;
             charCount+=line.length();
-        }
+
     }
     public int getLineCount(){
         return  lineCount;

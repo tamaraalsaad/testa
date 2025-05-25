@@ -1,4 +1,4 @@
-package Inlämning;
+package Inlamnig1;
 public class read {
     private int radCount;
     private int charCount;
